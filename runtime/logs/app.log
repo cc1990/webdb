@@ -1,0 +1,2520 @@
+2017-02-16 11:51:20 [-][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\server\RedisServer' not found' in D:\www\tools\commands\BackupController.php:16
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#3 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#4 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#5 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#7 D:\www\tools\yii(20): yii\base\Application->run()
+#8 {main}
+2017-02-16 11:51:20 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487217080.5524
+    'REQUEST_TIME' => 1487217080
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/redis'
+    ]
+    'argc' => 2
+]
+2017-02-16 11:52:17 [-][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\server\RedisServer' not found' in D:\www\tools\commands\BackupController.php:16
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#3 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#4 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#5 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#7 D:\www\tools\yii(20): yii\base\Application->run()
+#8 {main}
+2017-02-16 11:52:17 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487217137.7989
+    'REQUEST_TIME' => 1487217137
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/redis'
+    ]
+    'argc' => 2
+]
+2017-02-16 11:56:50 [-][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\server\RedisServer' not found' in D:\www\tools\commands\BackupController.php:16
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#3 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#4 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#5 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#7 D:\www\tools\yii(20): yii\base\Application->run()
+#8 {main}
+2017-02-16 11:56:50 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487217410.6046
+    'REQUEST_TIME' => 1487217410
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/redis'
+    ]
+    'argc' => 2
+]
+2017-02-16 11:59:07 [-][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class yii\redis\Connection does not exist' in D:\www\tools\vendor\yiisoft\yii2\di\Container.php:417
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2\di\Container.php(417): ReflectionClass->__construct('yii\\redis\\Conne...')
+#1 D:\www\tools\vendor\yiisoft\yii2\di\Container.php(360): yii\di\Container->getDependencies('yii\\redis\\Conne...')
+#2 D:\www\tools\vendor\yiisoft\yii2\di\Container.php(153): yii\di\Container->build('yii\\redis\\Conne...', Array, Array)
+#3 D:\www\tools\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\redis\\Conne...', Array, Array)
+#4 D:\www\tools\vendor\yiisoft\yii2\di\ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#5 D:\www\tools\vendor\yiisoft\yii2\di\ServiceLocator.php(71): yii\di\ServiceLocator->get('redis')
+#6 D:\www\tools\backend\server\RedisServer.php(18): yii\di\ServiceLocator->__get('redis')
+#7 D:\www\tools\commands\BackupController.php(16): app\backend\server\RedisServer->__construct()
+#8 [internal function]: app\commands\BackupController->actionRedis()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('redis', Array)
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('redis', Array)
+#13 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('backup/redis', Array)
+#14 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('backup/redis', Array)
+#15 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 D:\www\tools\yii(20): yii\base\Application->run()
+#17 {main}
+2017-02-16 11:59:07 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487217547.4694
+    'REQUEST_TIME' => 1487217547
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/redis'
+    ]
+    'argc' => 2
+]
+2017-02-16 11:59:30 [-][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class yii\redis\Connection does not exist' in D:\www\tools\vendor\yiisoft\yii2\di\Container.php:417
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2\di\Container.php(417): ReflectionClass->__construct('yii\\redis\\Conne...')
+#1 D:\www\tools\vendor\yiisoft\yii2\di\Container.php(360): yii\di\Container->getDependencies('yii\\redis\\Conne...')
+#2 D:\www\tools\vendor\yiisoft\yii2\di\Container.php(153): yii\di\Container->build('yii\\redis\\Conne...', Array, Array)
+#3 D:\www\tools\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\redis\\Conne...', Array, Array)
+#4 D:\www\tools\vendor\yiisoft\yii2\di\ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#5 D:\www\tools\vendor\yiisoft\yii2\di\ServiceLocator.php(71): yii\di\ServiceLocator->get('redis')
+#6 D:\www\tools\backend\server\RedisServer.php(18): yii\di\ServiceLocator->__get('redis')
+#7 D:\www\tools\commands\BackupController.php(16): app\backend\server\RedisServer->__construct()
+#8 [internal function]: app\commands\BackupController->actionRedis()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('redis', Array)
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('redis', Array)
+#13 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('backup/redis', Array)
+#14 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('backup/redis', Array)
+#15 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 D:\www\tools\yii(20): yii\base\Application->run()
+#17 {main}
+2017-02-16 11:59:30 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487217570.7621
+    'REQUEST_TIME' => 1487217570
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/redis'
+    ]
+    'argc' => 2
+]
+2017-02-16 14:44:51 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "codemirror/redis".' in D:\www\tools\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('codemirror/redi...', Array)
+#1 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('codemirror/redi...', Array)
+#2 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 D:\www\tools\yii(20): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "codemirror/redis".' in D:\www\tools\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('codemirror/redi...', Array)
+#1 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 D:\www\tools\yii(20): yii\base\Application->run()
+#3 {main}
+2017-02-16 14:44:51 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487227491.4301
+    'REQUEST_TIME' => 1487227491
+    'argv' => [
+        0 => 'yii'
+        1 => 'codemirror/redis'
+    ]
+    'argc' => 2
+]
+2017-02-16 14:47:48 [-][-][-][error][yii\redis\Connection] Failed to open redis DB connection (192.168.5.144:6379, database=1): 10060 - 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2017-02-16 14:47:48 [-][-][-][error][yii\db\Exception] exception 'yii\db\Exception' with message 'Failed to open DB connection.' in D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php:297
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php(386): yii\redis\Connection->open()
+#1 D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php(358): yii\redis\Connection->executeCommand('hmset', Array)
+#2 D:\www\tools\backend\server\RedisServer.php(63): yii\redis\Connection->__call('hmset', Array)
+#3 D:\www\tools\backend\server\RedisServer.php(63): yii\redis\Connection->hmset('192.168.5.70-', 'databases', 'student,test')
+#4 D:\www\tools\commands\BackupController.php(17): app\backend\server\RedisServer->hmset('192.168.5.70', '', 'databases', 'student,test')
+#5 [internal function]: app\commands\BackupController->actionRedis()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('redis', Array)
+#9 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('redis', Array)
+#10 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('backup/redis', Array)
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('backup/redis', Array)
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 D:\www\tools\yii(20): yii\base\Application->run()
+#14 {main}
+Additional Information:
+由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2017-02-16 14:47:27 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487227647.454
+    'REQUEST_TIME' => 1487227647
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/redis'
+    ]
+    'argc' => 2
+]
+2017-02-16 14:59:45 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Missing argument 3 for app\backend\server\RedisServer::hmget(), called in D:\www\tools\commands\BackupController.php on line 18 and defined' in D:\www\tools\backend\server\RedisServer.php:76
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): app\commands\BackupController->actionRedis()
+#1 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#4 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#5 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#6 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#8 D:\www\tools\yii(20): yii\base\Application->run()
+#9 {main}
+2017-02-16 14:59:45 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487228385.3452
+    'REQUEST_TIME' => 1487228385
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/redis'
+    ]
+    'argc' => 2
+]
+2017-02-16 15:05:26 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'php'@'10.10.10.97' (using password: YES)' in D:\www\tools\vendor\yiisoft\yii2\db\Connection.php:600
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(600): PDO->__construct('mysql:host=192....', 'php', 'phpmysqldb2016', NULL)
+#1 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(542): yii\db\Connection->createPdoInstance()
+#2 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(858): yii\db\Connection->open()
+#3 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(845): yii\db\Connection->getMasterPdo()
+#4 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(834): yii\db\Command->prepare(true)
+#6 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 D:\www\tools\commands\BackupController.php(27): yii\db\Command->queryAll()
+#8 [internal function]: app\commands\BackupController->actionCodemirror()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('codemirror', Array)
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('codemirror', Array)
+#13 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('backup/codemirr...', Array)
+#14 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('backup/codemirr...', Array)
+#15 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 D:\www\tools\yii(20): yii\base\Application->run()
+#17 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'php'@'10.10.10.97' (using password: YES)' in D:\www\tools\vendor\yiisoft\yii2\db\Connection.php:547
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(858): yii\db\Connection->open()
+#1 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(845): yii\db\Connection->getMasterPdo()
+#2 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(834): yii\db\Command->prepare(true)
+#4 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 D:\www\tools\commands\BackupController.php(27): yii\db\Command->queryAll()
+#6 [internal function]: app\commands\BackupController->actionCodemirror()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('codemirror', Array)
+#10 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('codemirror', Array)
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('backup/codemirr...', Array)
+#12 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('backup/codemirr...', Array)
+#13 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 D:\www\tools\yii(20): yii\base\Application->run()
+#15 {main}
+Additional Information:
+
+2017-02-16 15:05:26 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487228726.2041
+    'REQUEST_TIME' => 1487228726
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 15:06:46 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'php'@'10.10.10.97' (using password: YES)' in D:\www\tools\vendor\yiisoft\yii2\db\Connection.php:600
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(600): PDO->__construct('mysql:host=192....', 'php', 'phpmysqldb2016', NULL)
+#1 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(542): yii\db\Connection->createPdoInstance()
+#2 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(858): yii\db\Connection->open()
+#3 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(845): yii\db\Connection->getMasterPdo()
+#4 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(834): yii\db\Command->prepare(true)
+#6 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 D:\www\tools\commands\BackupController.php(27): yii\db\Command->queryAll()
+#8 [internal function]: app\commands\BackupController->actionCodemirror()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('codemirror', Array)
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('codemirror', Array)
+#13 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('backup/codemirr...', Array)
+#14 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('backup/codemirr...', Array)
+#15 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 D:\www\tools\yii(20): yii\base\Application->run()
+#17 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'php'@'10.10.10.97' (using password: YES)' in D:\www\tools\vendor\yiisoft\yii2\db\Connection.php:547
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(858): yii\db\Connection->open()
+#1 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(845): yii\db\Connection->getMasterPdo()
+#2 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(834): yii\db\Command->prepare(true)
+#4 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 D:\www\tools\commands\BackupController.php(27): yii\db\Command->queryAll()
+#6 [internal function]: app\commands\BackupController->actionCodemirror()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('codemirror', Array)
+#10 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('codemirror', Array)
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('backup/codemirr...', Array)
+#12 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('backup/codemirr...', Array)
+#13 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 D:\www\tools\yii(20): yii\base\Application->run()
+#15 {main}
+Additional Information:
+
+2017-02-16 15:06:46 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487228806.1949
+    'REQUEST_TIME' => 1487228806
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 15:20:56 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'php'@'10.10.10.97' (using password: YES)' in D:\www\tools\vendor\yiisoft\yii2\db\Connection.php:600
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(600): PDO->__construct('mysql:host=192....', 'php', 'phpmysqldb2016', NULL)
+#1 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(542): yii\db\Connection->createPdoInstance()
+#2 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(858): yii\db\Connection->open()
+#3 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(845): yii\db\Connection->getMasterPdo()
+#4 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(834): yii\db\Command->prepare(true)
+#6 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 D:\www\tools\commands\BackupController.php(27): yii\db\Command->queryAll()
+#8 [internal function]: app\commands\BackupController->actionCodemirror()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('codemirror', Array)
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('codemirror', Array)
+#13 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('backup/codemirr...', Array)
+#14 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('backup/codemirr...', Array)
+#15 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 D:\www\tools\yii(20): yii\base\Application->run()
+#17 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'php'@'10.10.10.97' (using password: YES)' in D:\www\tools\vendor\yiisoft\yii2\db\Connection.php:547
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(858): yii\db\Connection->open()
+#1 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(845): yii\db\Connection->getMasterPdo()
+#2 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(834): yii\db\Command->prepare(true)
+#4 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 D:\www\tools\commands\BackupController.php(27): yii\db\Command->queryAll()
+#6 [internal function]: app\commands\BackupController->actionCodemirror()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('codemirror', Array)
+#10 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('codemirror', Array)
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('backup/codemirr...', Array)
+#12 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('backup/codemirr...', Array)
+#13 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 D:\www\tools\yii(20): yii\base\Application->run()
+#15 {main}
+Additional Information:
+
+2017-02-16 15:20:56 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487229656.7561
+    'REQUEST_TIME' => 1487229656
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 15:22:04 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\www\tools\vendor\yiisoft\yii2\db\Connection.php:600
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(600): PDO->__construct('mysql:host=192....', 'php', 'phpmysqldb2016', NULL)
+#1 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(542): yii\db\Connection->createPdoInstance()
+#2 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(858): yii\db\Connection->open()
+#3 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(845): yii\db\Connection->getMasterPdo()
+#4 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(834): yii\db\Command->prepare(true)
+#6 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 D:\www\tools\commands\BackupController.php(27): yii\db\Command->queryAll()
+#8 [internal function]: app\commands\BackupController->actionCodemirror()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('codemirror', Array)
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('codemirror', Array)
+#13 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('backup/codemirr...', Array)
+#14 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('backup/codemirr...', Array)
+#15 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 D:\www\tools\yii(20): yii\base\Application->run()
+#17 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in D:\www\tools\vendor\yiisoft\yii2\db\Connection.php:547
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(858): yii\db\Connection->open()
+#1 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(845): yii\db\Connection->getMasterPdo()
+#2 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(834): yii\db\Command->prepare(true)
+#4 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 D:\www\tools\commands\BackupController.php(27): yii\db\Command->queryAll()
+#6 [internal function]: app\commands\BackupController->actionCodemirror()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('codemirror', Array)
+#10 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('codemirror', Array)
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('backup/codemirr...', Array)
+#12 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('backup/codemirr...', Array)
+#13 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 D:\www\tools\yii(20): yii\base\Application->run()
+#15 {main}
+Additional Information:
+
+2017-02-16 15:21:43 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487229703.4757
+    'REQUEST_TIME' => 1487229703
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 15:22:49 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'php'@'10.10.10.97' (using password: YES)' in D:\www\tools\vendor\yiisoft\yii2\db\Connection.php:600
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(600): PDO->__construct('mysql:host=192....', 'php', 'phpmysqldb2016', NULL)
+#1 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(542): yii\db\Connection->createPdoInstance()
+#2 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(858): yii\db\Connection->open()
+#3 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(845): yii\db\Connection->getMasterPdo()
+#4 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(834): yii\db\Command->prepare(true)
+#6 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 D:\www\tools\commands\BackupController.php(27): yii\db\Command->queryAll()
+#8 [internal function]: app\commands\BackupController->actionCodemirror()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('codemirror', Array)
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('codemirror', Array)
+#13 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('backup/codemirr...', Array)
+#14 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('backup/codemirr...', Array)
+#15 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 D:\www\tools\yii(20): yii\base\Application->run()
+#17 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'php'@'10.10.10.97' (using password: YES)' in D:\www\tools\vendor\yiisoft\yii2\db\Connection.php:547
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(858): yii\db\Connection->open()
+#1 D:\www\tools\vendor\yiisoft\yii2\db\Connection.php(845): yii\db\Connection->getMasterPdo()
+#2 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(834): yii\db\Command->prepare(true)
+#4 D:\www\tools\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 D:\www\tools\commands\BackupController.php(27): yii\db\Command->queryAll()
+#6 [internal function]: app\commands\BackupController->actionCodemirror()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('codemirror', Array)
+#10 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('codemirror', Array)
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('backup/codemirr...', Array)
+#12 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('backup/codemirr...', Array)
+#13 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 D:\www\tools\yii(20): yii\base\Application->run()
+#15 {main}
+Additional Information:
+
+2017-02-16 15:22:49 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487229769.804
+    'REQUEST_TIME' => 1487229769
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 16:13:51 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mb_strlen() expects parameter 1 to be string, array given' in D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php:391
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php(358): yii\redis\Connection->executeCommand()
+#1 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->__call()
+#2 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->hmset()
+#3 D:\www\tools\commands\BackupController.php(79): app\backend\server\RedisServer->hmset()
+#4 D:\www\tools\commands\BackupController.php(31): app\commands\BackupController->_getData()
+#5 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): app\commands\BackupController->actionCodemirror()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#8 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#10 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#13 D:\www\tools\yii(20): yii\base\Application->run()
+#14 {main}
+2017-02-16 16:12:31 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487232751.9449
+    'REQUEST_TIME' => 1487232751
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 16:29:04 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mb_strlen() expects parameter 1 to be string, array given' in D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php:391
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php(358): yii\redis\Connection->executeCommand()
+#1 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->__call()
+#2 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->hmset()
+#3 D:\www\tools\commands\BackupController.php(79): app\backend\server\RedisServer->hmset()
+#4 D:\www\tools\commands\BackupController.php(31): app\commands\BackupController->_getData()
+#5 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): app\commands\BackupController->actionCodemirror()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#8 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#10 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#13 D:\www\tools\yii(20): yii\base\Application->run()
+#14 {main}
+2017-02-16 16:28:19 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487233699.0267
+    'REQUEST_TIME' => 1487233699
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 16:29:58 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mb_strlen() expects parameter 1 to be string, array given' in D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php:391
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php(358): yii\redis\Connection->executeCommand()
+#1 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->__call()
+#2 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->hmset()
+#3 D:\www\tools\commands\BackupController.php(80): app\backend\server\RedisServer->hmset()
+#4 D:\www\tools\commands\BackupController.php(29): app\commands\BackupController->_getData()
+#5 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): app\commands\BackupController->actionCodemirror()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#8 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#10 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#13 D:\www\tools\yii(20): yii\base\Application->run()
+#14 {main}
+2017-02-16 16:29:58 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487233797.9975
+    'REQUEST_TIME' => 1487233797
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 16:35:08 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: backup/codemirrot' in D:\www\tools\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('codemirrot', Array)
+#1 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('codemirrot', Array)
+#2 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('backup/codemirr...', Array)
+#3 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('backup/codemirr...', Array)
+#4 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 D:\www\tools\yii(20): yii\base\Application->run()
+#6 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "backup/codemirrot".' in D:\www\tools\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('backup/codemirr...', Array)
+#1 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 D:\www\tools\yii(20): yii\base\Application->run()
+#3 {main}
+2017-02-16 16:35:08 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487234108.1982
+    'REQUEST_TIME' => 1487234108
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirrot'
+    ]
+    'argc' => 2
+]
+2017-02-16 16:35:10 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mb_strlen() expects parameter 1 to be string, array given' in D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php:391
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php(358): yii\redis\Connection->executeCommand()
+#1 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->__call()
+#2 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->hmset()
+#3 D:\www\tools\commands\BackupController.php(82): app\backend\server\RedisServer->hmset()
+#4 D:\www\tools\commands\BackupController.php(29): app\commands\BackupController->_getData()
+#5 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): app\commands\BackupController->actionCodemirror()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#8 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#10 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#13 D:\www\tools\yii(20): yii\base\Application->run()
+#14 {main}
+2017-02-16 16:35:09 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487234109.9561
+    'REQUEST_TIME' => 1487234109
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 16:39:01 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mb_strlen() expects parameter 1 to be string, array given' in D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php:391
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php(358): yii\redis\Connection->executeCommand()
+#1 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->__call()
+#2 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->hmset()
+#3 D:\www\tools\commands\BackupController.php(80): app\backend\server\RedisServer->hmset()
+#4 D:\www\tools\commands\BackupController.php(29): app\commands\BackupController->_getData()
+#5 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): app\commands\BackupController->actionCodemirror()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#8 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#10 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#13 D:\www\tools\yii(20): yii\base\Application->run()
+#14 {main}
+2017-02-16 16:39:01 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487234341.0278
+    'REQUEST_TIME' => 1487234341
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 16:39:06 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mb_strlen() expects parameter 1 to be string, array given' in D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php:391
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php(358): yii\redis\Connection->executeCommand()
+#1 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->__call()
+#2 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->hmset()
+#3 D:\www\tools\commands\BackupController.php(80): app\backend\server\RedisServer->hmset()
+#4 D:\www\tools\commands\BackupController.php(29): app\commands\BackupController->_getData()
+#5 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): app\commands\BackupController->actionCodemirror()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#8 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#10 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#13 D:\www\tools\yii(20): yii\base\Application->run()
+#14 {main}
+2017-02-16 16:39:05 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487234345.8464
+    'REQUEST_TIME' => 1487234345
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 16:39:14 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mb_strlen() expects parameter 1 to be string, array given' in D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php:391
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php(358): yii\redis\Connection->executeCommand()
+#1 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->__call()
+#2 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->hmset()
+#3 D:\www\tools\commands\BackupController.php(80): app\backend\server\RedisServer->hmset()
+#4 D:\www\tools\commands\BackupController.php(29): app\commands\BackupController->_getData()
+#5 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): app\commands\BackupController->actionCodemirror()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#8 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#10 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#13 D:\www\tools\yii(20): yii\base\Application->run()
+#14 {main}
+2017-02-16 16:39:13 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487234353.9179
+    'REQUEST_TIME' => 1487234353
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 16:40:20 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mb_strlen() expects parameter 1 to be string, array given' in D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php:391
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php(358): yii\redis\Connection->executeCommand()
+#1 D:\www\tools\backend\server\RedisServer.php(70): yii\redis\Connection->__call()
+#2 D:\www\tools\backend\server\RedisServer.php(70): yii\redis\Connection->hmset()
+#3 D:\www\tools\commands\BackupController.php(80): app\backend\server\RedisServer->hmset()
+#4 D:\www\tools\commands\BackupController.php(29): app\commands\BackupController->_getData()
+#5 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): app\commands\BackupController->actionCodemirror()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#8 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#10 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#13 D:\www\tools\yii(20): yii\base\Application->run()
+#14 {main}
+2017-02-16 16:40:19 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487234419.7617
+    'REQUEST_TIME' => 1487234419
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 16:40:30 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mb_strlen() expects parameter 1 to be string, array given' in D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php:391
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php(358): yii\redis\Connection->executeCommand()
+#1 D:\www\tools\backend\server\RedisServer.php(70): yii\redis\Connection->__call()
+#2 D:\www\tools\backend\server\RedisServer.php(70): yii\redis\Connection->hmset()
+#3 D:\www\tools\commands\BackupController.php(80): app\backend\server\RedisServer->hmset()
+#4 D:\www\tools\commands\BackupController.php(29): app\commands\BackupController->_getData()
+#5 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): app\commands\BackupController->actionCodemirror()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#8 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#10 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#13 D:\www\tools\yii(20): yii\base\Application->run()
+#14 {main}
+2017-02-16 16:40:30 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487234430.0513
+    'REQUEST_TIME' => 1487234430
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 16:40:58 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mb_strlen() expects parameter 1 to be string, array given' in D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php:391
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php(358): yii\redis\Connection->executeCommand()
+#1 D:\www\tools\backend\server\RedisServer.php(70): yii\redis\Connection->__call()
+#2 D:\www\tools\backend\server\RedisServer.php(70): yii\redis\Connection->hmset()
+#3 D:\www\tools\commands\BackupController.php(80): app\backend\server\RedisServer->hmset()
+#4 D:\www\tools\commands\BackupController.php(29): app\commands\BackupController->_getData()
+#5 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): app\commands\BackupController->actionCodemirror()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#8 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#10 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#13 D:\www\tools\yii(20): yii\base\Application->run()
+#14 {main}
+2017-02-16 16:40:58 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487234458.5971
+    'REQUEST_TIME' => 1487234458
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 16:41:32 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mb_strlen() expects parameter 1 to be string, array given' in D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php:391
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php(358): yii\redis\Connection->executeCommand()
+#1 D:\www\tools\backend\server\RedisServer.php(70): yii\redis\Connection->__call()
+#2 D:\www\tools\backend\server\RedisServer.php(70): yii\redis\Connection->hmset()
+#3 D:\www\tools\commands\BackupController.php(80): app\backend\server\RedisServer->hmset()
+#4 D:\www\tools\commands\BackupController.php(29): app\commands\BackupController->_getData()
+#5 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): app\commands\BackupController->actionCodemirror()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#8 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#10 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#13 D:\www\tools\yii(20): yii\base\Application->run()
+#14 {main}
+2017-02-16 16:41:31 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487234491.9673
+    'REQUEST_TIME' => 1487234491
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 16:42:04 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mb_strlen() expects parameter 1 to be string, array given' in D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php:391
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php(358): yii\redis\Connection->executeCommand()
+#1 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->__call()
+#2 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->hmset()
+#3 D:\www\tools\commands\BackupController.php(80): app\backend\server\RedisServer->hmset()
+#4 D:\www\tools\commands\BackupController.php(29): app\commands\BackupController->_getData()
+#5 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): app\commands\BackupController->actionCodemirror()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#8 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#10 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#13 D:\www\tools\yii(20): yii\base\Application->run()
+#14 {main}
+2017-02-16 16:42:04 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487234524.0749
+    'REQUEST_TIME' => 1487234524
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 16:42:17 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mb_strlen() expects parameter 1 to be string, array given' in D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php:391
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php(358): yii\redis\Connection->executeCommand()
+#1 D:\www\tools\backend\server\RedisServer.php(70): yii\redis\Connection->__call()
+#2 D:\www\tools\backend\server\RedisServer.php(70): yii\redis\Connection->hmset()
+#3 D:\www\tools\commands\BackupController.php(80): app\backend\server\RedisServer->hmset()
+#4 D:\www\tools\commands\BackupController.php(29): app\commands\BackupController->_getData()
+#5 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): app\commands\BackupController->actionCodemirror()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#8 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#10 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#13 D:\www\tools\yii(20): yii\base\Application->run()
+#14 {main}
+2017-02-16 16:42:17 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487234537.3266
+    'REQUEST_TIME' => 1487234537
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 16:43:02 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mb_strlen() expects parameter 1 to be string, array given' in D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php:391
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php(358): yii\redis\Connection->executeCommand()
+#1 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->__call()
+#2 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->hmset()
+#3 D:\www\tools\commands\BackupController.php(80): app\backend\server\RedisServer->hmset()
+#4 D:\www\tools\commands\BackupController.php(29): app\commands\BackupController->_getData()
+#5 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): app\commands\BackupController->actionCodemirror()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#8 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#10 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#13 D:\www\tools\yii(20): yii\base\Application->run()
+#14 {main}
+2017-02-16 16:43:02 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487234582.3155
+    'REQUEST_TIME' => 1487234582
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 16:44:35 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mb_strlen() expects parameter 1 to be string, array given' in D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php:391
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php(358): yii\redis\Connection->executeCommand()
+#1 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->__call()
+#2 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->hmset()
+#3 D:\www\tools\commands\BackupController.php(80): app\backend\server\RedisServer->hmset()
+#4 D:\www\tools\commands\BackupController.php(29): app\commands\BackupController->_getData()
+#5 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): app\commands\BackupController->actionCodemirror()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#8 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#10 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#13 D:\www\tools\yii(20): yii\base\Application->run()
+#14 {main}
+2017-02-16 16:44:35 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487234675.586
+    'REQUEST_TIME' => 1487234675
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 16:44:54 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mb_strlen() expects parameter 1 to be string, array given' in D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php:391
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php(358): yii\redis\Connection->executeCommand()
+#1 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->__call()
+#2 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->hmset()
+#3 D:\www\tools\commands\BackupController.php(80): app\backend\server\RedisServer->hmset()
+#4 D:\www\tools\commands\BackupController.php(29): app\commands\BackupController->_getData()
+#5 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): app\commands\BackupController->actionCodemirror()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#8 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#10 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#13 D:\www\tools\yii(20): yii\base\Application->run()
+#14 {main}
+2017-02-16 16:44:54 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487234694.3134
+    'REQUEST_TIME' => 1487234694
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 16:45:13 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mb_strlen() expects parameter 1 to be string, array given' in D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php:391
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php(358): yii\redis\Connection->executeCommand()
+#1 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->__call()
+#2 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->hmset()
+#3 D:\www\tools\commands\BackupController.php(80): app\backend\server\RedisServer->hmset()
+#4 D:\www\tools\commands\BackupController.php(29): app\commands\BackupController->_getData()
+#5 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): app\commands\BackupController->actionCodemirror()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#8 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#10 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#13 D:\www\tools\yii(20): yii\base\Application->run()
+#14 {main}
+2017-02-16 16:45:13 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487234713.166
+    'REQUEST_TIME' => 1487234713
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 16:46:11 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mb_strlen() expects parameter 1 to be string, array given' in D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php:391
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php(358): yii\redis\Connection->executeCommand()
+#1 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->__call()
+#2 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->hmset()
+#3 D:\www\tools\commands\BackupController.php(81): app\backend\server\RedisServer->hmset()
+#4 D:\www\tools\commands\BackupController.php(29): app\commands\BackupController->_getData()
+#5 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): app\commands\BackupController->actionCodemirror()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#8 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#10 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#13 D:\www\tools\yii(20): yii\base\Application->run()
+#14 {main}
+2017-02-16 16:46:11 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487234771.1209
+    'REQUEST_TIME' => 1487234771
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 16:46:42 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mb_strlen() expects parameter 1 to be string, array given' in D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php:391
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php(358): yii\redis\Connection->executeCommand()
+#1 D:\www\tools\backend\server\RedisServer.php(70): yii\redis\Connection->__call()
+#2 D:\www\tools\backend\server\RedisServer.php(70): yii\redis\Connection->hmset()
+#3 D:\www\tools\commands\BackupController.php(81): app\backend\server\RedisServer->hmset()
+#4 D:\www\tools\commands\BackupController.php(29): app\commands\BackupController->_getData()
+#5 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): app\commands\BackupController->actionCodemirror()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#8 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#10 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#13 D:\www\tools\yii(20): yii\base\Application->run()
+#14 {main}
+2017-02-16 16:46:42 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487234802.6362
+    'REQUEST_TIME' => 1487234802
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]
+2017-02-16 16:47:37 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mb_strlen() expects parameter 1 to be string, array given' in D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php:391
+Stack trace:
+#0 D:\www\tools\vendor\yiisoft\yii2-redis\Connection.php(358): yii\redis\Connection->executeCommand()
+#1 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->__call()
+#2 D:\www\tools\backend\server\RedisServer.php(69): yii\redis\Connection->hmset()
+#3 D:\www\tools\commands\BackupController.php(81): app\backend\server\RedisServer->hmset()
+#4 D:\www\tools\commands\BackupController.php(29): app\commands\BackupController->_getData()
+#5 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): app\commands\BackupController->actionCodemirror()
+#6 D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\www\tools\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 D:\www\tools\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#8 D:\www\tools\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#9 D:\www\tools\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#10 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#11 D:\www\tools\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#12 D:\www\tools\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#13 D:\www\tools\yii(20): yii\base\Application->run()
+#14 {main}
+2017-02-16 16:47:37 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\user\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TWL20160620003'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\user'
+    'LOCALAPPDATA' => 'C:\\Users\\user\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TWL20160620003'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\iFLYTEK\\VoiceAssistant\\SpeechPlusRuntime;C:\\Program Files (x86)\\Lenovo\\Voice SDK;D:\\phpStudy\\php56n\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\www\\composer;D:\\Program Files (x86)\\Git\\bin;D:\\phpStudy\\MySQL\\bin;F:\\Program Files\\Java\\jdk1.7.0_80\\bin\\;D:\\phpStudy\\php56n\\phpunit;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\user\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TWL20160620003'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TWL20160620003'
+    'USERNAME' => 'user'
+    'USERPROFILE' => 'C:\\Users\\user'
+    'windir' => 'C:\\windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1487234857.1934
+    'REQUEST_TIME' => 1487234857
+    'argv' => [
+        0 => 'yii'
+        1 => 'backup/codemirror'
+    ]
+    'argc' => 2
+]

@@ -1,0 +1,17 @@
+{
+    "name": "myweishanli/extjs-extend",
+    "description": "ExtJs 5 extend",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ShanLi Wei",
+            "email": "myweishanli@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "bower-asset/dp-extjs": "~1.0",
+        "myweishanli/yii2-extjs-rbac": "~1.0.3"
+    }
+}

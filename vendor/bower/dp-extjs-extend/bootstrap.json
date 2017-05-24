@@ -1,0 +1,67 @@
+{
+  "js": [
+    {
+      "path": "{extJsPath}/build/ext-all.js",
+      "isSdk": true
+    },
+    {
+      "path": "{extJsPath}/packages/sencha-core/overrides/app/Application.js"
+    },
+    {
+      "path": "{extJsPath}/packages/ext-theme-neptune/overrides/Component.js"
+    },
+    {
+      "path": "{extJsPath}/packages/ext-theme-neptune/overrides/container/ButtonGroup.js"
+    },
+    {
+      "path": "{extJsPath}/packages/ext-theme-neptune/overrides/form/field/HtmlEditor.js"
+    },
+    {
+      "path": "{extJsPath}/packages/ext-theme-neptune/overrides/grid/RowEditor.js"
+    },
+    {
+      "path": "{extJsPath}/packages/ext-theme-neptune/overrides/grid/column/RowNumberer.js"
+    },
+    {
+      "path": "{extJsPath}/packages/ext-theme-neptune/overrides/layout/component/Dock.js"
+    },
+    {
+      "path": "{extJsPath}/packages/ext-theme-neptune/overrides/menu/Menu.js"
+    },
+    {
+      "path": "{extJsPath}/packages/ext-theme-neptune/overrides/menu/Separator.js"
+    },
+    {
+      "path": "{extJsPath}/packages/ext-theme-neptune/overrides/panel/Panel.js"
+    },
+    {
+      "path": "{extJsPath}/packages/ext-theme-neptune/overrides/panel/Table.js"
+    },
+    {
+      "path": "{extJsPath}/packages/ext-theme-neptune/overrides/picker/Month.js"
+    },
+    {
+      "path": "{extJsPath}/packages/ext-theme-neptune/overrides/resizer/Splitter.js"
+    },
+    {
+      "path": "{extJsPath}/packages/ext-theme-neptune/overrides/toolbar/Paging.js"
+    },
+    {
+      "path": "{extJsPath}/packages/ext-theme-neptune/overrides/toolbar/Toolbar.js"
+    },
+    {
+      "path": "{extJsPath}/packages/ext-theme-crisp/overrides/view/Table.js"
+    },
+    {
+      "path": "{extJsPath}/packages/ext-locale/overrides/zh_CN/ext-locale-zh_CN.js"
+    }
+  ],
+  "css": [
+    {
+      "path": "{bootstrapCssPath}"
+    },
+    {
+      "path": "{extJsExtendPath}/css/font-awesome.min.css"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+.control-label{
+    width: 120px !important;
+}
+.date-unit{
+    padding-left: 3px;
+    padding-right: 8px;
+    color: #3399FF;
+}
+.warning-msg{
+    position:absolute;
+    width:300px
+}
+.part-content{
+    border: 1px solid #28a3ef;
+    margin-bottom: 10px;
+    min-height: 205px;
+}
+.part-title{
+    background-color: #eee !important;
+    border-bottom: 1px solid #28a3ef;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 3px 0px;
+    width: 100%;
+}
