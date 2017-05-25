@@ -125,7 +125,7 @@ AppAsset::register($this);
 
     <footer class="footer">
         <div class="container">
-            <div class="" style="font-size: 8pt;">CopyRight &copy; <?= date('Y') ?> qccr by DB平台</div>
+            <div class="" style="font-size: 8pt;">CopyRight &copy; <?= date('Y') ?> cc1990 by DB平台</div>
         </div>
     </footer>
 

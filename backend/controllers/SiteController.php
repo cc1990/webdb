@@ -129,7 +129,7 @@ class SiteController extends Controller
         }
 
         //获取用户登录信息
-        $url = "http://manager.qccr.com/services/getPrincipal.json?token=" . $AUTH_JSESSIONID_COOKIE;
+        $url = "http://manager.cc1990.com/services/getPrincipal.json?token=" . $AUTH_JSESSIONID_COOKIE;
         $request = json_decode($this->http_get( $url ));
         //var_dump($request);exit;
         if( $request->success && $request->failed == false ){
@@ -181,7 +181,7 @@ class SiteController extends Controller
             }
 
             $sessionId = $login_info['data']->sessionId;
-            setcookie("AUTH_JSESSIONID_COOKIE", $sessionId,time()+3600*12,'/','qccr.com');
+            setcookie("AUTH_JSESSIONID_COOKIE", $sessionId,time()+3600*12,'/','cc1990.com');
             
             $username = $login_info['data']->username;
 
@@ -250,7 +250,7 @@ class SiteController extends Controller
 
     //用户登录接口
     public function getUserLogin( $data ){
-        $url = "http://manager.qccr.com/services/login.json";
+        $url = "http://manager.cc1990.com/services/login.json";
         $request = json_decode($this->http_post( $url, $data ));
         
         if( $request->failed || $request->success != true ){
@@ -266,7 +266,7 @@ class SiteController extends Controller
      * @return [type] [description]
      */
     public function getToken(){
-        $url = "http://manager.qccr.com/services/getToken.json";
+        $url = "http://manager.cc1990.com/services/getToken.json";
         $request = json_decode($this->http_get( $url ));
         
         if( $request->failed || $request->success != true ){
@@ -318,7 +318,7 @@ class SiteController extends Controller
             $this->redirect(['/site/login']);
             return false;
         }
-        $url = "http://manager.qccr.com/services/logout.json?token=" . $AUTH_JSESSIONID_COOKIE;
+        $url = "http://manager.cc1990.com/services/logout.json?token=" . $AUTH_JSESSIONID_COOKIE;
         $request = json_decode($this->http_get( $url ));
         if( $request -> success && $request -> failed == false ){
             Output::success("退出成功");
@@ -437,53 +437,6 @@ class SiteController extends Controller
         }
 
     }
-
-    /**
-     * 批量赋予权限
-     */
-//    public function actionAuthin(){
-//        ini_set('max_execution_time', '0');
-//        //所有用户工号和数据库对应关系
-//        $user_db = array(
-//            'basic_data' => '00100,00219,00573,00602,01047,01812,01842,01987,02075,02104,00102,00179,00343,00378,00528,01279,01299,02037,02180,00405,01236,01806,01827,02142,02189',
-//            'qccr' => '00127,00449,00648,01112,01120,01656,01726,01741,01909,02074,02129,02132,02155,02172,02187,02225,00205,00678,00856,01014,01122,01204,01742,02004,02121,02145,00022,01174,01175,01237,01567,01766,01854,01855,01857,01933,00208,00359,00382,00392,00457,00604,00605,00611,00621,00758,00789,00829,00956,00971,01048,01055,01535,01614,01651,01653,01708,01709,01710,01723,01729,01820,01834,01845,01860,01877,01959,01961,01964,01989,01992,02008,02034,02035,02050,02073,02101,02103,02115,02117,02119,02120,02124,02125,02127,02141,02148,02149,02174,02177,02178,02181,02182,02183,02186,02188,02193,02207,02221,02222',
-//            'market' => '00648,00655,01090,01173,01773,01843,01963,02123,02128,02179',
-//            'crm' => '00629,00649,01031,01213,01585,01951,02038,02116,02184',
-//            'oms' => '00339,00865,01033,01091,01245,02007,02126',
-//            'insurance' => '01652,01713,01715,01730,01754,01762,01792,01886',
-//            'news' => '01652,01713,01715,01730,01754,01762,01792,01886',
-//            'item' => '00258,00259,00329,00480,01059,01121,01172,01179,02208,02223',
-//            'auth' => '01121',
-//            'ordercenter' => '00205,00678,00856,01014,01122,01204,01742,02004,02121,02145',
-//            'kefu' => '00174,00188,00790,01962,02071,02175',
-//            'appdl' => '00174,00188,00790,01962,02071,02175',
-//            'membercenter' => '01029,01791,02070',
-//            'growth' => '01029,01791,02070',
-//            'paycenter' => '01225,02122',
-//            '管理员' => '01782,02122,00186,00377,00518,00752,01475,01565,01659,01752,01781',
-//        );
-//
-//        //获取用户对象，如不存在则自动创建
-//        $Users = Users::find()->select('id,username')->where('id > 121')->asArray()->all();
-//        $a = 1;
-//
-//        $time = time();
-//        foreach($Users as $val){
-//            unset($array);
-//            $formModel = new AssignmentForm($val['id']);
-//            $array['AssignmentForm']['userId'] = $val['id'];
-//            foreach($user_db as $key=>$val2){
-//                if(strpos($val2,$val['username']) !== false){
-//                    echo $a.':'.$key.$val['id'].'<br>';
-//                    $array['AssignmentForm']['roles'][] = $key;
-//                    $a++;
-//                }
-//                $formModel->load($array);
-//                $formModel->save();
-//            }
-//        }
-//
-//    }
 
     /**
      * 批量赋予权限
@@ -610,7 +563,7 @@ class SiteController extends Controller
         }
 
         //获取未上线的项目列表
-        $url = "http://cryw.qccr.com/releasemanage/ajax/get_project_list/";
+        $url = "http://cryw.cc1990.com/releasemanage/ajax/get_project_list/";
         $request = $this->get( $url );
         $contents = json_decode( $request );
         if( empty( $result = $contents->result ) ) //如果返回的结果为空

@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: user
- * Date: 2017/1/12
- * Time: 15:27
- */
-
 namespace backend\server;
 
 use Yii;
@@ -13,7 +6,7 @@ use Yii;
 
 /**
  * Description ssh2相关操作
- * Author   童旭华
+ * Author   Cc
  * Time 2017-1-12
  */
 class SshServer

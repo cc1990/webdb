@@ -31,9 +31,9 @@ use yii\base\Exception;
 */
 class WebdbController extends Controller
 {
-    const SHARDING_SERVICE = 'http://dbservice.qccrnb.com';//分库分表接口地址
-    const CRYW_API = 'http://cryw.qccr.com/releasemanage/api/'; //运维平台API接口地址
-    const SUPERCONFIG = 'http://superconfig.qccr.com/appConfigDetail/queryOnlineProject.json'; //超人配置中心请求应用对应的实际环境配置
+    const SHARDING_SERVICE = 'http://dbservice.cc1990.com';//分库分表接口地址
+    const CRYW_API = 'http://cryw.cc1990.com/releasemanage/api/'; //运维平台API接口地址
+    const SUPERCONFIG = 'http://superconfig.cc1990.com/appConfigDetail/queryOnlineProject.json'; //超人配置中心请求应用对应的实际环境配置
 
     public function init()
     {

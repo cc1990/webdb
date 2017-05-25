@@ -25,10 +25,10 @@ use vendor\phpoffice\phpexcel\Classes;
 class ShardingController extends SiteController
 {
     //分库分表接口地址
-    const host = "http://dbservice.qccrnb.com";
+    const host = "http://dbservice.cc1990.com";
     const shell_ddl_common = "/bin/sh /data/scripts/opt_ddl_common.sh";
     const shell_ddl_sharding = "/bin/sh /data/scripts/opt_ddl_sharding.sh";
-    const config = "http://dbservice.qccrnb.com/db/rule.json?projectName={@project}&environment={@environment}&database={@database}";
+    const config = "http://dbservice.cc1990.com/db/rule.json?projectName={@project}&environment={@environment}&database={@database}";
 
     public function actionIndex()
     {
@@ -1751,7 +1751,7 @@ class ShardingController extends SiteController
 
     public function connectDb(){
         //组合数据库配置
-        //$connect_config['dsn'] = "mysql:host=localhost;dbname=tools_qccr";
+        //$connect_config['dsn'] = "mysql:host=localhost;dbname=tools";
         $connect_config['dsn'] = "mysql:host=127.0.0.1;dbname=webdb";
         $connect_config['username'] = Yii::$app->params['MARKET_USER'];
         $connect_config['password'] = Yii::$app->params['MARKET_PASSWD'];

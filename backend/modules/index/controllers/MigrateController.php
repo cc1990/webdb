@@ -16,7 +16,7 @@ use yii\helpers\Url;
 class MigrateController extends SiteController
 {
     //分库分表接口地址
-    const host = "http://dbservice.qccrnb.com";
+    const host = "http://dbservice.cc1990.com";
     const shell_common = "/data/scripts/migrateData_common.sh";
     const shell_sharding = "/data/scripts/migrateData_sharding.sh";
     const shell_common_create = "/data/scripts/migrateData_common_createTable.sh";

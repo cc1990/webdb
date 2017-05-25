@@ -42,7 +42,7 @@ class DeploymentController extends SiteController
             }
         }
 
-        $url = "http://cryw.qccr.com/releasemanage/ajax/get_project_list/"; //获取项目列表
+        $url = "http://cryw.cc1990.com/releasemanage/ajax/get_project_list/"; //获取项目列表
         $request = json_decode(file_get_contents($url));
         $project = $request->result;
 

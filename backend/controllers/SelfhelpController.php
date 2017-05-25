@@ -16,7 +16,7 @@ use yii\base\Exception;
 
 class SelfhelpController extends BaseController
 {
-    const SHARDING_SERVICE = 'http://dbservice.qccrnb.com';//分库分表接口地址
+    const SHARDING_SERVICE = 'http://dbservice.cc1990.com';//分库分表接口地址
 
     const SHARDING_DATABASE = ['membercenter', 'ordercenter']; //分库分表
 
